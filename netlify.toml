@@ -1,0 +1,6 @@
+# This is a plain static site (3 files). No build step is needed.
+# Without this file Netlify sees vite.config.js, tries to build,
+# and publishes an empty/wrong folder.
+[build]
+  publish = "."
+  command = ""
